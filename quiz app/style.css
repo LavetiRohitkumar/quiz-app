@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    width: 40vw;
+    /* height: 300px; */
+    padding: 3rem 8rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+
+}
+
+.container h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem 0 2rem 0;
+}
+
+.container li{
+    list-style: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 2rem;
+    outline: none;
+    font-size: 1rem;
+    font-size: 400;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: azure;
+    background-color: blue;
+    margin-top: 4rem;
+
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+#showScore{
+    background-color: #fff;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem --0.7rem rgba(0,0,0,0.4);
+}
+
+.scoreArea{
+    display: none;
+}
